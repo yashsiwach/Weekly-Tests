@@ -1,0 +1,29 @@
+Tasks
+
+1.Create separate ledgers for income and expenses.
+
+2.Store transaction data using collections.
+
+3.Retrieve stored data when required.
+
+4.Implement inheritance for transaction handling.
+
+5.Use interfaces to enforce structure and consistency.
+
+6.Ensure data security while managing the database.
+
+Algorithm
+
+-Create an abstract base class Transaction to implement inheritance.
+
+-Create two derived classes: IncomeTransaction and ExpenseTransaction.
+
+-Create a store class to manage and hold transaction data.
+
+-Use a private List collection to maintain data security.
+
+-Retrieve data using a for loop, comparing transactions with the user-entered date.
+
+-Use a for loop to calculate the total amount.
+
+-Accept input from the user and store the transaction data in the collection.
